@@ -1,7 +1,2 @@
 name: ex08
 description: A sample command-line application
-dependencies:
-  ? ''
-  : git:
-      ref: git://github.com/dzenanr/dartlero.git
-      url: ''
