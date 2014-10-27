@@ -1,0 +1,39 @@
+ex08
+
+10/20
+
+-1
+sortFirstName(var members) {
+members.sort((a, b) => a["firstName"].compareTo(b["firstName"]));
+-->
+sortFirstName(List members) {
+  members.sort((a, b) => a["firstName"].compareTo(b["firstName"]));
+  
+-1
+SVPL, pas d'impression (print) en fonctions (main seulement) 
+
+8.1
+-1
+  var members = [
+    {"association": "CPA", "firstName": "Jean", "lastName": "Jobin", "email": "jj@gmail.com"},
+    {"association": "CPA", "firstName": "Barnaby", "lastName": "Jones", "email": "bj@gmail.com"},
+    {"association": "CMA", "firstName": "Julie", "lastName": "Lajoie", "email": "jl@gmail.com"},
+    {"association": "CFA", "firstName": "Dominic", "lastName": "Tellier", "email": "dt@gmail.com"},
+    {"association": "CFA", "firstName": "Antony", "lastName": "Chapman", "email": "ac@gmail.com"}];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+-5
+8.2
+Create a CLASS MODEL with associations and members...
